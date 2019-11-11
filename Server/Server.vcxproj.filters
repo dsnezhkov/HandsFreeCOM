@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Precompiled.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="Runtime.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Precompiled.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="Registration.cpp" />
+    <ClCompile Include="Client.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Exports.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Manifest.xml" />
+  </ItemGroup>
+</Project>

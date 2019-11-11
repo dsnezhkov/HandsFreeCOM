@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity type="win32"
+                    name="Server"
+                    version="1.0.0.0" />
+  
+  <file name="Server.exe">
+    <comClass description="Font Property Page" 
+              clsid="{5d8a7d33-059f-418a-8d77-5f3944d63b6d}"
+              threadingModel="Both" /> 
+  </file>
+
+
+</assembly>
+
